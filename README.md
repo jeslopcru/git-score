@@ -1,12 +1,12 @@
 # git-score
 
-*git score* is a script to compute some "scores" for committers in a git repo. Use it for fun or to brag about your involvement in the development of a project.
+*git-score* is a script to compute some "scores" for committers in a git repo. Use it for fun or to brag about your involvement in the development of a project.
 
 This script is inspired by [git-score](https://github.com/msparks/git-score), a python script
 
 ## Usage
 
-![gif](http://imgur.com/a/azcSE)
+![gif](http://imgur.com/gxA3Ezb.gif)
 
 In a repository, type:
 
@@ -36,7 +36,10 @@ This will output something like the following:
 
 To install git-score, install Composer and issue the following command:
 
+```sh
 $ composer global require jeslopcru/git-score
+```
+
 Then make sure you have the global Composer binaries directory in your PATH. This directory is platform-dependent, see Composer documentation for details. Example for some Unix systems:
 
 $ export PATH="$PATH:$HOME/.composer/vendor/bin"
