@@ -42,5 +42,6 @@ $ composer global require jeslopcru/git-score
 
 Then make sure you have the global Composer binaries directory in your PATH. This directory is platform-dependent, see Composer documentation for details. Example for some Unix systems:
 
+```sh
 $ export PATH="$PATH:$HOME/.composer/vendor/bin"
-
+```
