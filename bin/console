@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+use GitRate\Infrastructure\Ui\Console\GitScoreCommand;
+use Symfony\Component\Console\Application;
+
+include __DIR__ . '/../vendor/autoload.php';
+
+$application = new Application();
+
+$command = new GitScoreCommand();
+$application->add($command);
+$application->setDefaultCommand($command->getName());
+$application->run();

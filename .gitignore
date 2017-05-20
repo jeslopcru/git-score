@@ -1,0 +1,6 @@
+
+
+# IntelliJ project files
+.ide
+vendor
+/.php_cs.cache

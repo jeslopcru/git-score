@@ -1,0 +1,31 @@
+{
+  "name": "jeslopcru/git-score",
+  "description": "displays aggregate stats in a concise format for human consumption and provides a rough estimation of developer involvement in a project",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jesus",
+      "email": "jeslopcru@gmail.com"
+    }
+  ],
+  "bin": [
+    "score"
+  ],
+  "autoload": {
+    "psr-4": {
+      "GitRate\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GitRate\\Test\\": "test"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.3"
+  },
+  "require": {
+    "symfony/console": "^3.2"
+  }
+}
