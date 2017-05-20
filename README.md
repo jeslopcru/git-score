@@ -6,7 +6,7 @@ This script is inspired by [git-score](https://github.com/msparks/git-score), a 
 
 ## Usage
 
-![gif](https://github.com/jeslopcru/git-score/edit/master/git-score.gif)
+![gif](http://imgur.com/gxA3Ezb.gif)
 
 In a repository, type:
 
