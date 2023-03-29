@@ -32,6 +32,7 @@ This will output something like the following:
 +------------------------------+----------------------------------+---------+-------+-------+------+-------+
 ```
 
+
 ## Installation
 
 To install git-score, install Composer and issue the following command:
